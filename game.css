@@ -1,0 +1,25 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: orange;
+}
+
+.gameboard {
+  margin: 0 auto;
+  height: 600px;
+  display: grid;
+  grid-gap: 20px;
+  perspective: 1000px;
+  width: 800px;
+  background-color: orange;
+  padding: 20px;
+}
+
+.button {
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+}
